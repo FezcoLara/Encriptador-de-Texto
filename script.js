@@ -72,3 +72,4 @@ function copiarTexto() {
         botonCopiar.textContent = "Copiar"; // Vuelve al texto original después de 2 segundos
     }, 2000);
 }
+
