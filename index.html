@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./imagenes/iconkey.jpg">
+    <title>Encriptador de texto</title>
+    
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/Logo.png" alt="logo de alura">
+    </header>
+
+    <main>
+        <section class="encriptador">
+            <textarea class="box-encriptador" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="encriptador-aviso">
+            
+                <p class="texto-aviso">Solo letras minúsculas y sin acentos!</p>
+            </div>
+            <div class="botones">
+                <button class="boton-encriptar" onclick="botonEncriptar()">Encriptar</button>
+                <button class="boton-desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="box">
+            <div class="box-contenedor">
+                <img class="img-muñeco" src="./imagenes/Muneco.png" alt="imagen muñeco">
+                <p class="texto-uno">Ningún mensaje fue encontrado</p>
+                <p class="texto-dos">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <textarea class="mensaje" readonly></textarea>
+            <!--<button class="boton-copiar">Copiar</button>-->
+            <button class="boton-copiar">Copiar</button> <!-- Botón fuera del contenedor -->
+            
+        </section>
+    </main>
+    <footer>
+        <div class="presentacion-enlaces-contenedor">
+            <h2 class="presentacion-enlaces">Accede a mis redes:</h2>
+            <div class="presentacion-enlaces-links">
+                <a class="presentacion-enlaces-link" href="https://www.instagram.com/">
+                    <img src="./imagenes/instagram.png"> Instagram
+                </a>
+                <a class="presentacion-enlaces-link" href="https://www.github.com/">
+                    <img src="./imagenes/github.png"> Github
+                </a>
+            </div>
+        </div>
+        <div class="copyright">&copy; copyright 2024 - Encriptador de Texto - Desarrollado por Victor Lara</div>
+           
+        
+    </footer>
+<script src="./script.js"></script>    
+</body>
+</html>
