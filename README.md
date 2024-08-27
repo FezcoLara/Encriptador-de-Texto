@@ -1,3 +1,3 @@
-<h1> Sistema de Registro</h1>
+<h1> Challenge Encriptador de texto</h1>
 
 -Estado del proyecto: Terminado
